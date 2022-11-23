@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="Log in">
+            <div>
+                <select name="" id="">
+                    <option value="Sign up">Sign up</option>
+                    <option value="Sign in">Sign in</option>
+                    <option value="Sign in as a Guest">Sign in as a Guest</option>
+                    
+                </select>
+                <input type="text" name="q" placeholder="username ...">
+                <input type="text" name="q" placeholder="Password ...">
+                <button>Confirm</button>
+            </div>
+        </div>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">Openion</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>หัวข้อความรู้ที่เกี่ยวกับผู้เชี่ยวชาญพิเศษเฉพาะด้าน</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">Python</a></h4>
+                    <p>Description Content:อยากให้ทุกคนลองDiscussหรือแนะนำอะไรเจ๋งๆเกี่ยวกับPythonดู หรือจะทิ้งบทความเตือน/คำแนะนำเกี่ยวกับPythonไว้ช่วยเหลือมือใหม่ก็ได้ครับ </p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>6 Posts | 9 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Inwza_Nissin007</a> 
+                    <br>on <small>05 Dec 2021</small>
+                </div>
+            </div>
+        </div>
+        
+        <!--More-->
+        
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>หัวข้อทั่วไป/บรรเทิง/ไม่เน้นสาระ</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">หาด้อมเกม/ด้อมเพลง/ด้อมหนัง+seriesต่างๆ</a></h4>
+                    <p>Description Content:อยากให้Forumนี้เอาไว้ให้คนต่างๆหาคนในด้อมเดียวกันเพื่อพูดคุย/พบปะพูดคุย/สร้างเพื่อนใหม่กับคนด้อมเดียวกันที่สุดแสนจะหายาก </p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>50 Posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">the_maker_Kung</a> 
+                    <br>on <small>19 Nov 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">อุปกรณ์การเรียนมือสอง/ส่งต่อของที่ไม่ใช้</a></h4>
+                    <p>Description Content: อยากให้ทุกๆคนได้แบ่งปัน/มอบสิ่งของที่ไม่เอาให้ผู้อื่นที่ต้องการ</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>15 Posts | 10Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Prayatchan</a> 
+                    <br>on <small>12 Nov 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">ซื้อขายidเกมblue achieve,genshin impact, etc.</a></h4>
+                    <p>Description Content:แหล่งซื้อขายidเกมblue achieve,genshin impact, etc. </p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>129 Posts | 10 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Sakamoto_009</a> 
+                    <br>on <small>23 Nov 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">โจทย์วิชาต่าง/ข้อสอบ</a></h4>
+                    <p>Description Content:อยากให้ทุกคนมาdiscussถึงข้อสอบวิชาต่างๆหรือแลกเปลี่ยนวิธีการทำโจทย์แนวต่างๆด้วยวิธีที่หลากหลาย หรือหาคนเฉลยโจทย์</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>51 Posts | 9 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">1JameRobert</a> 
+                    <br>on <small>22 Nov 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">เตือนภัย</a></h4>
+                    <p>Description Content:อยากให้ทุกๆคนมาช่วยบอกเล่าถึงสถานที่อันตรายต่างๆ หรือว่าในขณะนี้มีเรื่องใหญ่อะไรเกิดขึ้น</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>84 Posts | 16 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Pongniti2548</a> 
+                    <br>on <small>23 Nov 2021</small>
+                </div>
+            </div>
+        </div>
+        
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>คำแนะนำ</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">เลี้ยงแมว</a></h4>
+                    <p>Description Content:ให้คำแนะนำ/แลกเปลี่ยนความรู้เกี่ยวกับเรื่องแมว</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Ivan</a> 
+                    <br>on <small>12 Dec 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">เรื่องเครียด</a></h4>
+                    <p>Description Content: อยากให้คนที่มีความเครียดเรื่องอะไรต่างที่หาทางออกไม่ได้ลองมาพูดคุยกับคนอื่นๆเพื่อช่วยกันหาทางออกร่วมกัน</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>120 Posts | 50 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Anpas</a> 
+                    <br>on <small>23 Nov 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">ที่ท่องเที่ยว/ที่พัก</a></h4>
+                    <p>Description Content:อยากให้ใช้ที่นี่เป็นที่ๆเอาไว้บอกถึงความสวยงาม/ความหน้าไปของสถานที่ท่องเที่ยวต่างๆ หรือไว้บอกว่าที่พักหรือสถานที่ท่องเที่ยวที่ไหนคุ้มกับราคาหรือไม่คุ้ม</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">Chaitong</a> 
+                    <br>on <small>23 Nov 2021</small>
+                </div>
+            </div>
+            <hr class="subforum-devider">
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa fa-cloud"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h4><a href="#">แนะนำที่เรียนพิเศษ</a></h4>
+                    <p>Description Content:อยากให้ทุกๆคนที่เคยเรียนพิเศษกับสถาบันต่างๆมาช่วยแนะนำที่เรียนพิเศษเพื่อเป็นแนวทางแก่คนอื่นๆด้วย</p>
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>30 Posts | 12 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last post</a></b> by <a href="">SIAO</a> 
+                    <br>on <small>23 Nov 2021</small>
+                </div>
+            </div>
+
+           
+        </div>
+        <!---->
+    </div>
+
+    <!-- Forum Info -->
+    <div class="forum-info">
+        <div class="chart">
+            OPENION - Stats &nbsp;<i class="fa fa-bar-chart"></i>
+        </div>
+        <span><u>5,369</u> Posts in <u>48</u> Topics by <u>8,124</u> Members.</span><br>
+        <span>Latest post: <b><a href="">Random post</a></b> on Nov 23 2021 By <a href="">RandomUser</a></span>.<br>
+        <span>Check <a href="">the latest posts</a> .</span><br>
+    </div>
+
+    <footer>
+        <span>&copy;  Amogus | All Rights Reserved</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

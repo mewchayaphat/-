@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPENION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="Log in">
+            <div>
+                <select name="" id="">
+                    <option value="Sign up">Sign up</option>
+                    <option value="Sign in">Sign in</option>
+                    <option value="Sign in as a Guest">Sign in as a Guest</option>
+                </select>
+                <input type="text" name="q" placeholder="username ...">
+                <input type="text" name="q" placeholder="Password ...">
+                <button>Confirm</button>
+            </div>
+        </div>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">OPENION</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <!--Navigation-->
+        <div class="navigate">
+            <span><a href="">OPENION - Forums</a> >> <a href="">random subforum</a></span>
+        </div>
+        <!--Display posts table-->
+        <div class="posts-table">
+            <div class="table-head">
+                <div class="status">Status</div>
+                <div class="subjects">Subjects</div>
+                <div class="replies">Replies/Views</div>
+                <div class="last-reply">Last Reply</div>
+            </div>
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">เรียนPythonแล้วเอาไปทำไรได้บ้าง?</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    5 replies <br> 30 views
+                </div>
+
+                <div class="last-reply">
+                    Nov 23 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+            <!--starts here-->
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">อ่านA-levelวันนี้ยังจะทันไปสอบมั้ย?</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    2 replies <br> 125 views
+                </div>
+
+                <div class="last-reply">
+                    Nov 20 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">นิยายClassroom of the Eliteสนุกจริงมั้ยครับ พอดีเพื่อนบอกว่าอนิเมะเรื่องนี้กาก?</a>
+                    <br>
+                    <span>Started by <b><a href="">User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    98 replies <br> 1,412 views
+                </div>
+
+                <div class="last-reply">
+                    Nov 19 2021
+                    <br>By <b><a href="">User</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-book"></i></div>
+                <div class="subjects">
+                    <a href="">ขอวิธีจีบสาวหน่อยครับแบบติดชัวร์ๆ100%เลยนะครับ(ขอผู้เชี่ยวชาญที่มีประสบการณ์จริงๆนะครับ)?</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    113 replies <br> 1,256 views
+                </div>
+
+                <div class="last-reply">
+                    Nov 11 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-rocket"></i></div>
+                <div class="subjects">
+                    <a href="">ทำไมห้องวันนี้ม.5ห้องAถึงสอบวิชาศิลปะแบบไม่เก็บคะแนนแต่ห้องม.5ห้องBที่เรียนกับครูคนเดียวกับตอนสอบถึงเก็บคะแนนครับ มีใครพอรู้บ้างมั้ย??</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    39 replies <br> 256 views
+                </div>
+
+                <div class="last-reply">
+                    Nov 3 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-frown-o"></i></div>
+                <div class="subjects">
+                    <a href="">เครียดมากเลยครับที่บ้านมีปัญหาไม่มีใครเข้าใจผม มาที่โรงเรียนก็รู้สึกว่าไม่มีใครจริงใจเลยมีใครเคยผ่านประสบการณ์แบบนี้มั้ยครับ(ผมอยากได้คำแนะนำจริงจังเลย)?</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    5 replies <br> 21 views
+                </div>
+
+                <div class="last-reply">
+                    Oct 31 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">มีใครจะทำChallenge NNN บ้างมั้ยครับหาแนวร่วม?</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    13 replies <br> 65 views
+                </div>
+
+                <div class="last-reply">
+                    Oct 17 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">มีใครเขียนDjangoเป็นบ้างมั้ยครับ พอดีว่าผมไปเจอโปรเจคในyoutubeแต่ว่าคลิปโปรเจคนั้นมันเก่าประาณ5ปี แล้วตัวส่วนเสริมก็พัฒนาไปเป็นรุ่นอื่นหมดแล้ว+(django verนั้นเค้าไม่supportแล้วอะครับ) ผมเลยอยากหาคนรับจ้างเขียนโปรเจ๕ตามคลิปเลยอะครับ?</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    1 replies <br> 42 views
+                </div>
+
+                <div class="last-reply">
+                    Oct 15 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-lock"></i></div>
+                <div class="subjects">
+                    <a href="">มีใครมีวาร์ปของน้องichika matsumotoมั้ยครับพอดีหาไม่ค่อยได้เลยครับ วอนท่านผู้เจริญช่วยผมที?</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    213 replies <br> 1,123 views
+                </div>
+
+                <div class="last-reply">
+                    Oct 12 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="status"><i class="fa fa-fire"></i></div>
+                <div class="subjects">
+                    <a href="">ขอวิธีออกห่างจากคนน่ารำคาญหน่อยครับ พอดีว่าคนคนนั้นเค้าคิดว่าผมกับเค้าสนิทกันเค้าเลยพยายามเข้ามาคุยกับผมแต่ผมรำคาญมาก ผมไม่รู้ว่าจะพูดเค้าคนนั้นว่ายังไงดี</a>
+                    <br>
+                    <span>Started by <b><a href="">Guest User</a></b> .</span>
+                </div>
+                <div class="replies">
+                    45 replies <br> 354 views
+                </div>
+
+                <div class="last-reply">
+                    Oct 5 2021
+                    <br>By <b><a href="">Guest User</a></b>
+                </div>
+            </div>
+            <!--ends here-->
+        </div>
+        <!--Pagination starts-->
+            <div class="pagination">
+                pages: <a href="">1</a><a href="">2</a><a href="">3</a>
+            </div>
+        <!--pagination ends-->
+    </div>
+
+    <div class="note">
+        <span><i class="fa fa-frown-o"></i>&nbsp; 0 Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-book"></i>&nbsp; Low Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-fire"></i>&nbsp; Popular Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-rocket"></i>&nbsp; High Engagement Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+        <span><i class="fa fa-lock"></i>&nbsp; Closed Topic</span>&nbsp;&nbsp;&nbsp;<a href=""><i class="fa fa-share-square"></i></a><br>
+    </div>
+
+    <footer>
+        <span>&copy;  Amogus | All Rights Reserved</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
